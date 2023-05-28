@@ -1,0 +1,70 @@
+{
+	"folders": [
+		{
+			"path": "D:/PROGRAMS/C-programs"
+		},
+		{
+			"path": "D:/PROGRAMS/python-programs"
+		},
+		{
+			"path": "D:/PROGRAMS/Baby_python"
+		},
+		{
+			"path": "D:/THREE PROGRAMMS/C-program"
+		}
+	],
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"type": "pwa-chrome",
+				"request": "launch",
+				"name": "Open FORM.html",
+				"file": "c:\\Users\\91807\\Desktop\\FORM.html"
+			}
+		]
+	},
+	"settings": {
+		"sqltools.connections": [
+			{
+				"mysqlOptions": {
+					"authProtocol": "default"
+				},
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 3306,
+				"driver": "MySQL",
+				"name": "first",
+				"database": "boopathi",
+				"username": "admin",
+				"password": "boopathi"
+			},
+			{
+				"mysqlOptions": {
+					"authProtocol": "default"
+				},
+				"previewLimit": 50,
+				"server": "127.0.0.1",
+				"port": 3306,
+				"driver": "MySQL",
+				"name": "second",
+				"username": "root",
+				"database": "boopathi",
+				"password": ""
+			},
+			{
+				"mysqlOptions": {
+					"authProtocol": "default"
+				},
+				"previewLimit": 50,
+				"server": "127.0.0.1",
+				"port": 3306,
+				"driver": "MySQL",
+				"name": "newconnection",
+				"database": "boopathi",
+				"username": "root",
+				"password": ""
+			}
+		]
+	}
+}

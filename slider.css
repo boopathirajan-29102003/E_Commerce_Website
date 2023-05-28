@@ -1,0 +1,131 @@
+
+@media screen and (min-width:600px) {  
+
+.sld{
+    height: 280px;
+    width: 450px;
+    margin-left: 10%;
+}
+
+.index-imgs{
+    display:block;
+    border: 3px solid red;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+}
+.index-img{
+    display: flex;
+}
+.details{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(238, 219, 219);
+    padding: 20px;
+}
+.star{
+    color: red;
+}
+.details:hover{
+    background-color: beige;
+}
+.contact{
+    text-decoration: none;
+    color: blue;
+}
+.contact:hover{
+    text-decoration: underline;
+}
+.mv2product{
+    text-align: center;
+    color: rgb(77, 77, 77);
+
+}
+.mv2product:hover{
+    color: rgb(255, 134, 134);
+
+}
+.searbtn{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(255, 43, 15);
+    border: 2px solid red;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #f7f7f7;
+    font-weight: 900;
+}
+.searbtn:hover{
+    background-color: rgb(255, 255, 255);
+    background-color: antiquewhite;
+    color: black;
+}
+}
+/* For mobile devices*/
+
+@media screen and (max-width:600px){
+    .sld{
+        height: 180px;
+        width: 280px;
+        margin-left: 15%;
+    }
+    .img1{
+        margin-bottom: 30px;
+        margin-left: 15%;
+    }
+    .index-imgs{
+        display:block;
+        border: 3px solid red;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 20px;
+        
+    }
+    .details{
+        font-size: 10px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(238, 219, 219);
+        padding: 10px;
+    }
+    .star{
+        color: red;
+    }
+    .details:hover{
+        background-color: beige;
+    }
+    .contact{
+        text-decoration: none;
+        color: blue;
+    }
+    .contact:hover{
+        text-decoration: underline;
+    }
+    .mv2product{
+        text-align: center;
+        font-size: 10px;
+        color: rgb(77, 77, 77);
+    
+    }
+    .mv2product:hover{
+        color: rgb(255, 134, 134);
+    
+    }
+    .searbtn{
+        height: 20px;
+        width: 120px;
+        background-color: rgb(255, 43, 15);
+        border: 2px solid red;
+        cursor: pointer;
+        border-radius: 5px;
+        color: #f7f7f7;
+        font-weight: 900;
+        font-size: 10px;
+    }
+    .searbtn:hover{
+        background-color: rgb(255, 255, 255);
+        background-color: antiquewhite;
+        color: black;
+    }
+    
+}
