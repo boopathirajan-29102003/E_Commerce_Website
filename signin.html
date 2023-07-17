@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in</title>
+    <link rel="shortcut icon" type="jpeg/image" href="images/logos/MTA-logos.jpeg">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="slider.css">
+    <script src="index.js"></script>
+</head>
+<body background="images/logos/login.webp"><div class="top">
+    <a href="index.html"><img src="images/logos/MTA-1.png" alt="" class="mta"></a>
+    <h1 class="head"><span class="mtaletter">MTA</span> shopping</h1>
+    <div class="optiontop">
+        <a href="login.html" >LOGIN &  SIGNUP</a>
+        <a href="contact.html" >CONTACT US</a>
+        <a href="products.html" >PRODUCTS</a>
+        <a href="index.html" >HOME</a>
+    </div>
+    <img class= "menu" src="images/logos/menu.png" alt="" onclick="toogleMenu()" >
+</div>
+
+</div>
+<div class="option" id="opt">       
+<ul>
+    <li><a href="index.html" >HOME</a></li><br>
+    <li><a href="products.html" >PRODUCTS</a></li><br>
+    <li><a href="contact.html" >CONTACT US</a></li><br>
+    <li><a href="index.html" >LOGIN & SIGNUP</a></li><br>
+</ul>
+</div>
+<div class="login-back">
+<div class="login-page">
+<form action="signin.php" method="POST">
+    <input type="text" name="uname" id="" placeholder="Enter Name" required><br><br>
+    <input type="text" name="pno" id="" placeholder="Enter Phone Number" required><br><br>
+    <input type="text" name="email" id="" placeholder="Enter Email" required><br><br>
+    <input type="password" name="pass1" id="" placeholder="Enter Password" required><br><br>
+    <input type="password" name="pass2" id="" placeholder="Repeat password" required><br><br>
+    <center><input type="submit" name="sublog" id="" value="SIGN IN" class="signin"></center>
+
+    <br>
+
+    <center><input type="button" name="mvsign" id="" onclick="move2login()" value="Already have an account"></center>
+</form>
+</div>
+</div>
+</body>
+</html>

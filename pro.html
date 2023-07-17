@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTV home</title>
+
+
+<style>
+    *{
+    margin: auto;
+    font-family: Verdana;
+    
+}
+.option{
+    display: block;
+    min-height: 230px;
+    max-width: 100%;
+    background-color: aqua;
+    transition:linear 2s;
+}
+.menu {
+    cursor: pointer;
+    max-height:40px;
+    max-width: 40px;
+    float: right;
+    margin-top: -29px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin-right: 25px;
+    display: none;
+
+}
+
+.top{
+    min-height: 60px;
+    min-width: 100%;
+    border-bottom: 2px solid orange;
+    display: flex;
+    
+}
+.head{
+    margin-right: 600px;
+    font-size: 30px;
+    
+}
+
+.option  a{
+    
+    text-decoration: none;
+    background-color: #F64c72;
+    border-radius: 20px;
+    padding: 3px;
+    text-align: center;
+
+}
+.option  ul{
+    list-style: none;
+    text-decoration: none;
+    padding: 20px; 
+}
+.option{
+    display: none;
+    margin-bottom: 5px;
+}
+.top .optiontop{
+    float:inline-start;
+ 
+}
+.top .optiontop a{
+    display: flex;
+    float: right;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 40px;
+    color: rgb(0, 0, 255);
+    padding: 10px;
+
+}
+.top .optiontop a:hover{
+    color: rgb(0, 0, 0);
+    border-bottom: 3px solid orangered;
+    background-color: rgb(187, 187, 187);
+}
+.mta{
+    max-height:70px;
+    max-width: 70px;
+}
+.mtaletter{
+    color: rgb(255, 115, 0);
+    font-size: 40px;
+}
+
+
+@media screen and (max-width:600px) {
+    .mtaletter{
+        color: rgb(255, 115, 0);
+        font-size: 30px;
+    }
+
+    .mta{
+        max-height:50px;
+        max-width: 50px;
+    }
+    .head{
+        margin-right: 200px;
+        font-size: 30px;
+        font-size: 20px;
+    }
+    .top{
+        min-height: 30px;
+        min-width: 100%;
+        
+        display: flex;
+    }
+    .menu {
+        cursor: pointer;
+        max-height:20px;
+        max-width: 20px;
+        float: right;
+        border: 2px solid rgb(255, 143, 91);
+        border-radius: 6px;
+        margin-right: 30px;
+        display: block;
+        padding: 2px;
+        margin-top: 10px;
+       
+    }
+    .menu:hover{
+        border: 2px dotted rgb(255, 115, 0);
+    }
+    
+    .option{
+        display: none;
+        min-height: 230px;
+        max-width: 100%;
+        background-color: rgb(214, 228, 228);
+        
+    }
+   
+        .option  a{
+            
+            text-decoration: none;
+            background-color: #F64c72;
+            border-radius: 20px;
+            padding: 3px;
+            margin-left: auto;
+        }
+        .option  ul{
+            list-style: none;
+            text-decoration: none;
+            padding: 20px;
+            
+        }
+        .option  a:hover{
+    
+            text-decoration: none;
+            background-color: #ffffff;
+            border-radius: 20px;
+            padding: 3px;
+            color: black;
+        }
+        .option  a:hover::after{
+    
+            text-decoration: none;
+            background-color: #cfff22;
+            border-radius: 20px;
+            padding: 3px;
+            color: black;
+        } 
+        .optiontop{
+            display: none;
+        }
+}
+</style>
+    <script >
+        
+
+    function toogleMenu()
+    {
+        var menulist= document.getElementById("opt");
+        if(menulist.style.display=="none")
+        {
+            menulist.style.display="block";
+        }
+        else
+        {
+            menulist.style.display="none";
+        }
+    }
+
+
+    </script>
+</head>
+<body><div class="top">
+    <a href="index.html"><img src="images/logos/MTA-1.png" alt="" class="mta"></a>
+    <h1 class="head"><span class="mtaletter">MTA</span> shopping</h1>
+    <div class="optiontop">
+        <a href="" >LOGIN &  SIGNUP</a>
+        <a href="" >CONTACT US</a>
+        <a href="" >MY CART</a>
+        <a href="" >PRODUCTS</a>
+        <a href="" >HOME</a>
+    </div>
+    <img class= "menu" src="images/logos/menu.png" alt="" onclick="toogleMenu()" >
+
+</div>
+   
+
+
+</div>
+   
+    <div class="option" id="opt">
+        
+        <ul>
+    <li><a href="" >HOME</a></li><br>
+    <li><a href="" >PRODUCTS</a></li><br>
+    <li><a href="" >MY CART</a></li><br>
+    <li><a href="" >FEEDBACK & REPORT</a></li><br>
+    <li><a href="" >LOGIN & SIGNUP</a></li><br>
+</ul>
+
+</div>
+    <h3>This is a body</h3>
+
+
+
+</body>
+
+</html>

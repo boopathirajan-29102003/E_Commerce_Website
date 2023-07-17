@@ -1,0 +1,123 @@
+@media screen and (min-width:600px) {
+    
+
+.feed{
+    background-color: rgb(249, 249, 224);
+    border: 2px solid red;
+    display: block;
+    height: auto;
+    width:fit-content ;
+    padding: 40px;
+    margin-top: 50px;
+}
+.h1{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(255, 70, 70);
+    }
+
+.social{
+    margin-left: 45%;
+    display:inline-table;
+    }
+
+.soc-img{
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    padding: 10px;
+    
+}
+.soc-img:hover{
+    height: 40px;
+    width: 40pxx;
+}
+
+.cont1{
+    height: 300px;
+    width: 500px;
+    margin-left:  auto;
+    margin-right:  auto;
+    display: block;
+    border-radius: 6px;
+}
+
+.feedsub{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(255, 43, 15);
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 5px;
+    color: #f7f7f7;
+    font-weight: 900;
+}
+.feedsub:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+}
+
+/* for small devices */
+
+@media screen and (max-width:600px) {
+    
+
+    .feed{
+        background-color: rgb(249, 249, 224);
+        border: 2px solid red;
+        display: block;
+        height: auto;
+        width:fit-content ;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    .h1{
+        margin-top: 20px;
+        text-align: center;
+        color: rgb(255, 70, 70);
+        font-size: 15px;
+    }
+    
+    .social{
+     margin-left: 25%;
+    
+    }
+    
+    .soc-img{
+        height: 20px;
+        width: 20px;
+        cursor: pointer;
+        padding: 20px;
+    }
+    .soc-img:hover{
+        height: 25px;
+        width: 25px;
+        cursor: pointer;
+        padding: 20px;
+    }
+    
+    .cont1{
+        height: 200px;
+        width: 300px;
+        margin-left:  auto;
+        margin-right:  auto;
+        display: block;
+        border-radius: 6px;
+    }
+    
+    .feedsub{
+        height: 40px;
+        width: 100px;
+        background-color: rgb(255, 43, 20);
+        border: 2px solid rgb(0, 0, 0);
+        cursor: pointer;
+        border-radius: 5px;
+        color: #f7f7f7;
+        font-weight: 900;
+    }
+    .feedsub:hover{
+        background-color: rgb(255, 255, 255);
+        color: black;
+    }
+}
